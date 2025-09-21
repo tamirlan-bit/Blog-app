@@ -42,8 +42,13 @@ class ArticlesController < ApplicationController
     redirect_to root_path, status: :see_other
   end
 
-  private
-    def article_params
-      params.require(:article).permit(:title, :body)
-    end
+ before_action :require_admin, only: [ :edit, :update, :destroy ]
+
+private
+
+def require_admin
+  unless current_user.admin
+    redirect_to root_path, alert: "You are not allowed to do that"
+  end
+end
 end

@@ -94,3 +94,13 @@ input[type="submit"], button {
 input[type="submit"]:hover, button:hover {
   background: #005fa3;
 }
+
+/* Comments*/
+.comment {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}

@@ -1,24 +1,15 @@
-# README
+# Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple blog application built by following the [Getting Started with Rails](https://guides.rubyonrails.org/v7.2/getting_started.html) tutorial.  
+I added some extra CSS styling and images to make it look nicer.
 
-Things you may want to cover:
+## Screenshots
 
-* Ruby version
+### New Article
+![New Article](app/assets/images/new_article.jpg)
 
-* System dependencies
+### Articles Index
+![Articles Index](app/assets/images/index.jpg)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Show Article
+![Show Article](app/assets/images/article.jpg)

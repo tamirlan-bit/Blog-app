@@ -6,7 +6,7 @@ I added some extra CSS styling and images to make it look nicer.
 ## Screenshots
 
 ### New Article
-![New Article](app/assets/images/new_article.jpg)
+![New Article](app/assets/images/n_article.jpg)
 
 ### Articles Index
 ![Articles Index](app/assets/images/index.jpg)
